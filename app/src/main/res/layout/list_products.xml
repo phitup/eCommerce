@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+    <ImageView
+        android:id="@+id/imgProductImage"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/product_images" />
+    <TextView
+        android:id="@+id/txtProductName"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:textSize="13sp"
+        android:text="@string/product_name"
+        android:padding="8dp"
+        app:autoSizeTextType="uniform"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gia"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:id="@+id/txtMoneyType"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:textSize="14sp"
+            android:text="@string/MoneyType"
+            android:textColor="#FA2D2D"
+            />
+        <TextView
+            android:id="@+id/txtProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:textSize="14sp"
+            android:textColor="#FA2D2D"
+            android:text="@string/product_price"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

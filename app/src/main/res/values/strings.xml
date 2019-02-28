@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">eCommerce</string>
+    <string name="title_shop">Shop</string>
+    <string name="title_gifts">Gifts</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="goi_y_hom_nay">TRENDING</string>
+    <string name="product_images">product_Images</string>
+    <string name="product_name">product_name</string>
+    <string name="product_price">product_price</string>
+    <string name="gia">Price: \u0020</string>
+    <string name="MoneyType">$</string>
+    <string name="category">CATEGORY</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="please_enter_your_email">Please enter your email</string>
+    <string name="please_enter_your_password">Please enter your password</string>
+    <string name="please_confirm_password">Please confirm password</string>
+    <string name="create_account">Create Account</string>
+    <string name="join_now">Join now</string>
+    <string name="user_name">User Name</string>
+    <string name="country">Country</string>
+    <string name="save">Save</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="setting">Setting</string>
+    <string name="languages">Languages</string>
+    <string name="description">Description</string>
+</resources>
